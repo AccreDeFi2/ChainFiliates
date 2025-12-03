@@ -1,0 +1,13 @@
+{
+	"name": "@chainfiliates/cli",
+	"version": "0.0.2",
+	"type": "module",
+	"bin": {
+		"chainfiliates": "./bin/chainfiliates.js"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chainfiliateslabs/programs.git"
+	}
+}

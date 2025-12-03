@@ -1,0 +1,28 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"rootDir": ".",
+		"sourceMap": true,
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"target": "es2015",
+		"module": "esnext",
+		"lib": ["es2017", "dom"],
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"paths": {
+			"@chainfiliates/auth": ["packages/auth/src/index.ts"],
+			"@chainfiliates/campaigns": ["packages/campaigns/src/index.ts"],
+			"@chainfiliates/datamodels": ["packages/datamodels/src/index.ts"],
+			"@chainfiliates/partnerships": ["packages/partnerships/src/index.ts"],
+			"@chainfiliates/shared": ["packages/shared/src/index.ts"]
+		}
+	},
+	"exclude": ["node_modules", "tmp"]
+}

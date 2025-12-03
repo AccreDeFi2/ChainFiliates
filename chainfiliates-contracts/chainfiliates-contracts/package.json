@@ -1,0 +1,19 @@
+{
+  "name": "chainfiliates-contracts",
+  "version": "1.0.0",
+  "description": "ChainFiliates Smart Contracts - Affiliate Payment Splitting",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:base": "hardhat run scripts/deploy.ts --network base",
+    "deploy:base-sepolia": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "verify:base": "hardhat verify --network base",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4"
+  }
+}

@@ -1,0 +1,6 @@
+/packages/shared /modules/chainfiliates_shared_facets
+/packages/campaigns /modules/chainfiliates_campaigns
+/packages/auth /modules/chainfiliates_auth
+/packages/partnerships /modules/chainfiliates_partnerships
+/packages/cli https://github.com/chainfiliateslabs/programs/tree/main/packages/cli
+/modules/chainfiliates_cli https://github.com/chainfiliateslabs/programs/tree/main/packages/cli

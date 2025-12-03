@@ -1,0 +1,6 @@
+type: database
+action: create
+name: chainfiliates
+allowed:
+  - username: ${db_username}
+    password: ${db_password}

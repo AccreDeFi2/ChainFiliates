@@ -1,0 +1,5 @@
+{
+	"name": "ChainFiliates Collection Link Definition",
+	"description": "A Collection Link associated to a DID used by ChainFiliates.so",
+	"schema": "ceramic://"
+}

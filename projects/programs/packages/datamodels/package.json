@@ -1,0 +1,16 @@
+{
+	"name": "@chainfiliates/datamodels",
+	"version": "0.0.10",
+	"type": "module",
+	"license": "MIT",
+	"typedoc": {
+		"entryPoint": "./src/index.ts",
+		"readmeFile": "./README.md",
+		"displayName": "ChainFiliates Datamodels",
+		"tsconfig": "./tsconfig.lib.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chainfiliateslabs/programs.git"
+	}
+}

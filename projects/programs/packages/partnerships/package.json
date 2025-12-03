@@ -1,0 +1,16 @@
+{
+	"name": "@chainfiliates/partnerships",
+	"version": "0.0.2",
+	"type": "module",
+	"typedoc": {
+		"entryPoint": "./src/index.ts",
+		"readmeFile": "./README.md",
+		"displayName": "ChainFiliates Partnerships",
+		"tsconfig": "./tsconfig.lib.json"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chainfiliateslabs/programs.git"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"/getting-started/flow-diagrams": "/guide/key-concepts/understanding-chainfiliates",
+	"/getting-started/share-to-earn-flow-visualised": "/guide/key-concepts/understanding-chainfiliates",
+	"/getting-started/glossary": "/guide/key-concepts/glossary",
+	"/getting-started/how-smart-contracts-are-used": "/guide/key-concepts/understanding-chainfiliates",
+	"/getting-started/what-is-chainfiliates": "/guide/key-concepts/understanding-chainfiliates",
+	"/grow-your-brand/embed-the-chainfiliates-platform": "/ecosystem/programs/overview",
+	"/grow-your-brand/exploring-partnerships": "/guide/key-concepts/partner-programs",
+	"/grow-your-brand/start-a-campaign": "/guide/getting-started/campaign-management",
+	"/grow-your-brand/supporting-partners": "/guide/getting-started/supporting-partners",
+	"/grow-your-brand/the-campaign-object": "/guide/getting-started/campaign-management",
+	"/integrating-with-chainfiliatesjs/installation": "/ecosystem/chainfiliatesjs/installing",
+	"/integrating-with-chainfiliatesjs/instantiating-chainfiliatesjs": "/ecosystem/chainfiliatesjs/instantiating",
+	"/integrating-with-chainfiliatesjs/testing-your-integration": "/ecosystem/chainfiliatesjs/testing-integration",
+	"/integrating-with-chainfiliatesjs/chainfiliatesjs-api-and-properties": "/ecosystem/chainfiliatesjs/api-and-properties",
+	"/integrating-with-chainfiliatesjs/what-is-chainfiliatesjs": "/ecosystem/chainfiliatesjs/overview",
+	"/security/bot-prevention": "/guide/key-concepts/security-measures",
+	"/security/personhood-verification": "/guide/key-concepts/security-measures"
+}
