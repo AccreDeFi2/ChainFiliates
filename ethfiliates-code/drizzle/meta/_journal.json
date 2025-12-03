@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1764611822141,
+      "tag": "0000_rapid_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1764611869345,
+      "tag": "0001_late_husk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1764613432627,
+      "tag": "0002_blue_may_parker",
+      "breakpoints": true
+    }
+  ]
+}

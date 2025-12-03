@@ -1,0 +1,27 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Graph",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"preserveConstEnums": true,
+		"strictNullChecks": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"target": "es5",
+		"outDir": ".build",
+		"lib": ["es2015"],
+		"rootDir": "./",
+		"strict": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"types": ["node"],
+		"declaration": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"exclude": ["node_modules"],
+	"include": ["src/**/*.ts", "index.d.ts", "scripts/**/*.ts"]
+}

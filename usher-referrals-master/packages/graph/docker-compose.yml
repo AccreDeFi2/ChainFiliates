@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  db:
+    container_name: usher_db
+    restart: unless-stopped
+    image: arangodb/arangodb:${ARANGO_IMAGE_TAG:-3.9.2}
+    environment:
+      - ARANGO_ROOT_PASSWORD=${ARANGO_ROOT_PASSWORD}
+    ports:
+      - '8529:8529'
+    volumes:
+      - arangodb:/data
+      - arango_data:/var/lib/arangodb3
+
+volumes:
+  arangodb:
+  arango_data:
