@@ -11,7 +11,7 @@ When installing ChainFiliatesJS on your Web App or dApp, **it is highly recommen
 ### Using with `<script>`
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@chainfiliates/js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ChainFiliatess/js"></script>
 <script>
 	(function () {
 		function convert() {
@@ -47,16 +47,16 @@ When installing ChainFiliatesJS on your Web App or dApp, **it is highly recommen
 
 ```shell
 # npm
-npm i @chainfiliates/js
+npm i ChainFiliatess/js
 
 # yarn
-yarn add @chainfiliates/js
+yarn add ChainFiliatess/js
 ```
 
 2. Import the package into your project and you're good to go (with typescript compatibility)
 
 ```javascript
-import { ChainFiliates } from "@chainfiliates/js";
+import { ChainFiliates } from "ChainFiliatess/js";
 
 const chainfiliates = ChainFiliates();
 (async () => {

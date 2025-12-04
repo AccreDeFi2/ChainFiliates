@@ -14,8 +14,8 @@ import {
 	campaignDetailsDocSchema,
 	CampaignDoc,
 	campaignDocSchema
-} from "@chainfiliates/campaigns";
-import { Chains } from "@chainfiliates/shared";
+} from "ChainFiliatess/campaigns";
+import { Chains } from "ChainFiliatess/shared";
 import { aql } from "arangojs";
 import camelcaseKeys from "camelcase-keys";
 import cors from "cors";

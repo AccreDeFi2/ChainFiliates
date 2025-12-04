@@ -29,7 +29,7 @@ You may use any method you prefer to deploy the app. We will guide you through d
 3. Click on the "Import Project" button.
 4. Choose "Import Git Repository" and provide the URL of your ChainFiliates Core Git repository.
 5. Configure your Project Settings
-   1. **Build & Development Settings** should include a **Build Command**: `cd ../.. && turbo run build --filter=...@chainfiliates/app`
+   1. **Build & Development Settings** should include a **Build Command**: `cd ../.. && turbo run build --filter=...ChainFiliatess/app`
    2. **Root Directory** is `packages/app`.
    3. Enable "Include source files outside of the Root Directory in the Build Step."
 6. It is required for you to set in the "Environment Variables" section during the import process or later in the project settings.

@@ -1,4 +1,4 @@
-import { Api } from "@chainfiliates/shared";
+import { Api } from "ChainFiliatess/shared";
 
 import { CampaignReference, Partnership } from "./types.js";
 

@@ -1,7 +1,7 @@
 import { TileDocument } from "@ceramicnetwork/stream-tile";
 import { DataModel } from "@glazed/datamodel";
 import { DIDDataStore } from "@glazed/did-datastore";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import camelcaseKeys from "camelcase-keys";
 import {
 	createContext,

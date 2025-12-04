@@ -296,7 +296,7 @@ There are many ways you can contribute to taking ChainFiliates’s mission to em
 		// Set an external link that will show to partners, so that they're aware of where to be whitelisted.
 		"external_link": "https://discord.gg/mDUMfhqUcH"
 	},
-	// The _internal property is created automatically using the @chainfiliates/programs Campaigns CLI.
+	// The _internal property is created automatically using the ChainFiliatess/programs Campaigns CLI.
 	// The CLI tool will create a new wallet, encrypt it's private key using your Admin DID, and then store it here.
 	// At partner reward claim, the
 	"_internal": {

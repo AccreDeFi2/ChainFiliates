@@ -7,8 +7,8 @@ import {
 	ARWEAVE_EXPLORER_ADDRESS_URL,
 	ETHEREUM_EXPLORER_ADDRESS_URL
 } from "@/constants";
-import { Chains } from "@chainfiliates/shared";
-import { Campaign } from "@chainfiliates/campaigns";
+import { Chains } from "ChainFiliatess/shared";
+import { Campaign } from "ChainFiliatess/campaigns";
 import { chainImages } from "@/utils/images-map";
 import { UilTwitter } from "@iconscout/react-unicons";
 

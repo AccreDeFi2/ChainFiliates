@@ -1,4 +1,4 @@
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import { EthWalletConnectButton } from "@/components/connect/buttons/EthWalletConnectButton";
 import { ARWalletConnectButton } from "@/components/connect/buttons/ARWalletConnectButton";
 import { WalletConnectButtonProps } from "@/components/connect/buttons/types";

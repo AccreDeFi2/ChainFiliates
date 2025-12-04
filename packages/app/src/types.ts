@@ -1,12 +1,12 @@
 import { NextApiRequest, NextApiResponse, NextPageContext } from "next";
 // import { BaseLogger } from "pino";
-import { Authenticate } from "@chainfiliates/auth";
+import { Authenticate } from "ChainFiliatess/auth";
 import {
 	CampaignReference,
 	Partnership,
 	Partnerships
-} from "@chainfiliates/partnerships";
-import { Connections, Wallet } from "@chainfiliates/shared";
+} from "ChainFiliatess/partnerships";
+import { Connections, Wallet } from "ChainFiliatess/shared";
 import { StoredWallet } from "@/utils/wallets/stored-wallets";
 
 /**

@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import { Heading, HelpIcon, Pane, Paragraph, Tooltip } from "evergreen-ui";
 import { css } from "@linaria/core";
 
-import { Partnership } from "@chainfiliates/partnerships";
+import { Partnership } from "ChainFiliatess/partnerships";
 import { PartnershipMetrics } from "@/types";
 import InviteLink from "@/components/InviteLink";
 import Metric from "@/components/Metric";

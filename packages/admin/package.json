@@ -1,9 +1,9 @@
 {
-	"name": "@chainfiliates/admin",
+	"name": "ChainFiliatess/admin",
 	"version": "0.0.1",
 	"description": "ChainFiliates Admin Package",
 	"repository": "git@gitlab.com:chainfiliateslabs/core.git",
-	"author": "Ryan Soury <ryan@chainfiliates.so>",
+	"author": "Ryan Soury <ryanChainFiliatess.so>",
 	"license": "AGPL-3.0",
 	"bin": {
 		"uadmin": "./bin/uadmin"

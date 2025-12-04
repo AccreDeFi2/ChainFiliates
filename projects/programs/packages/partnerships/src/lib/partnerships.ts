@@ -1,7 +1,7 @@
 import { TileDocument } from "@ceramicnetwork/stream-tile";
 import ono from "@jsdevtools/ono";
-import { Authenticate, WalletAuth } from "@chainfiliates/auth";
-import { ApiOptions } from "@chainfiliates/shared";
+import { Authenticate, WalletAuth } from "ChainFiliatess/auth";
+import { ApiOptions } from "ChainFiliatess/shared";
 
 import { PartnershipsApi } from "./api.js";
 import { CampaignReference, Partnership } from "./types.js";

@@ -1,5 +1,5 @@
 import { BSC_CHAIN_ID, ETHEREUM_CHAIN_ID, POLYGON_CHAIN_ID } from "@/constants";
-import { Chains } from "@chainfiliates/shared";
+import { Chains } from "ChainFiliatess/shared";
 
 export const UNSUPPORTED_EVM_CHAIN = "unsupported_evm_chain" as const;
 

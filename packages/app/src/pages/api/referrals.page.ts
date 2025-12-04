@@ -1,8 +1,8 @@
 import { TileLoader } from "@glazed/tile-loader";
-import { Campaign } from "@chainfiliates/campaigns";
-import { WalletAliases } from "@chainfiliates/datamodels";
-import { CampaignReference } from "@chainfiliates/partnerships";
-import { Connections } from "@chainfiliates/shared";
+import { Campaign } from "ChainFiliatess/campaigns";
+import { WalletAliases } from "ChainFiliatess/datamodels";
+import { CampaignReference } from "ChainFiliatess/partnerships";
+import { Connections } from "ChainFiliatess/shared";
 import { aql } from "arangojs";
 import camelcaseKeys from "camelcase-keys";
 import cuid from "cuid";

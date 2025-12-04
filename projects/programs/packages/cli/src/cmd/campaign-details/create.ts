@@ -1,5 +1,5 @@
-import { Campaigns, parseCampaignDetails } from "@chainfiliates/campaigns";
-import { ApiOptions } from "@chainfiliates/shared";
+import { Campaigns, parseCampaignDetails } from "ChainFiliatess/campaigns";
+import { ApiOptions } from "ChainFiliatess/shared";
 import { Command, Option } from "commander";
 import { getContentByOptions } from "../../utils/content.js";
 import { parseDID } from "../../utils/did.js";

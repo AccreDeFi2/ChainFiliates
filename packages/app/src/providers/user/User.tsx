@@ -5,8 +5,8 @@
 import * as api from "@/api";
 import { API_OPTIONS, AUTH_OPTIONS } from "@/constants";
 import useArConnect from "@/hooks/use-arconnect";
-import { Authenticate } from "@chainfiliates/auth";
-import { Connections, Wallet } from "@chainfiliates/shared";
+import { Authenticate } from "ChainFiliatess/auth";
+import { Connections, Wallet } from "ChainFiliatess/shared";
 import { IUserContext, Profile, User } from "@/types";
 import { AppEvents, events } from "@/utils/events";
 import handleException from "@/utils/handle-exception";
@@ -19,7 +19,7 @@ import React, {
 	useMemo,
 	useState
 } from "react";
-import { CampaignReference, Partnerships } from "@chainfiliates/partnerships";
+import { CampaignReference, Partnerships } from "ChainFiliatess/partnerships";
 import { WritableDraft } from "immer/dist/internal";
 import { PromiseResult } from "promise.allsettled/types";
 import { handleMagicAuthProfileUpdate } from "@/providers/user/HandleMagicAuthProfileUpdate";

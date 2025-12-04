@@ -1,6 +1,6 @@
 import { ceramic } from "@/utils/ceramic-client";
 import { TileDocument } from "@ceramicnetwork/stream-tile";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import { Pane } from "evergreen-ui";
 import Image from "next/image";
 import { useRouter } from "next/router";

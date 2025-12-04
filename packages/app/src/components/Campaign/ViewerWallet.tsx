@@ -16,7 +16,7 @@ import {
 import Image from "next/image";
 
 import truncate from "@/utils/truncate";
-import { Wallet } from "@chainfiliates/shared";
+import { Wallet } from "ChainFiliatess/shared";
 import { connectionImages } from "@/utils/images-map";
 import { useCustomTheme } from "@/brand/themes/theme";
 

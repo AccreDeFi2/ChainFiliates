@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Chains } from "@chainfiliates/shared";
+import { Chains } from "ChainFiliatess/shared";
 import { useRouteHandler } from "@/server/middleware";
 import { getArweaveClient } from "@/utils/arweave-client";
 import { FEE_MULTIPLIER } from "@/constants";

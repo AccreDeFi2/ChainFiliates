@@ -1,5 +1,5 @@
 {
-	"name": "@chainfiliates/cli",
+	"name": "ChainFiliatess/cli",
 	"version": "0.0.2",
 	"type": "module",
 	"bin": {

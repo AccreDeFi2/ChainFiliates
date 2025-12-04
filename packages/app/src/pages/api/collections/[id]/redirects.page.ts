@@ -1,4 +1,4 @@
-import { Chains, Connections } from "@chainfiliates/shared";
+import { Chains, Connections } from "ChainFiliatess/shared";
 import cors from "cors";
 import { z } from "zod";
 

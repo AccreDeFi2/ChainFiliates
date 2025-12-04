@@ -1,6 +1,6 @@
-import { Connections, EVMBasedChain, Wallet } from "@chainfiliates/shared";
-import { Partnerships } from "@chainfiliates/partnerships";
-import { Authenticate } from "@chainfiliates/auth";
+import { Connections, EVMBasedChain, Wallet } from "ChainFiliatess/shared";
+import { Partnerships } from "ChainFiliatess/partnerships";
+import { Authenticate } from "ChainFiliatess/auth";
 import handleException from "@/utils/handle-exception";
 import pascalCase from "@/utils/pascal-case";
 import { toaster } from "evergreen-ui";

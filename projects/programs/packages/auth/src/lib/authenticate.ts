@@ -5,7 +5,7 @@ import {
 	EVMBasedChain,
 	EVMBasedChainList,
 	Wallet,
-} from "@chainfiliates/shared";
+} from "ChainFiliatess/shared";
 import Arweave from "arweave";
 import { DID } from "dids";
 import { ethers } from "ethers";

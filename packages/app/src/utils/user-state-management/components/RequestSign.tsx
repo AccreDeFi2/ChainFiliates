@@ -9,7 +9,7 @@ import {
 	toaster
 } from "evergreen-ui";
 import { useSignEthMessageAndConnect } from "@/components/connect/buttons/use-sign-eth-message";
-import { USHER_SIGN_MESSAGE } from "@/components/connect/WalletConnect";
+import { ChainFiliates_SIGN_MESSAGE } from "@/components/connect/WalletConnect";
 import { UNSUPPORTED_EVM_CHAIN } from "@/utils/get-chain-by-id";
 import { utilStateAtoms } from "@/utils/user-state-management/atoms/util-states";
 
@@ -30,7 +30,7 @@ export const RequestSign = () => {
 			if (chain !== UNSUPPORTED_EVM_CHAIN) {
 				await signAndConnect({
 					provider: primaryAccount.provider,
-					signingMessage: USHER_SIGN_MESSAGE,
+					signingMessage: ChainFiliates_SIGN_MESSAGE,
 					address: primaryAccount.address,
 					chain,
 					connection: primaryAccount.connection

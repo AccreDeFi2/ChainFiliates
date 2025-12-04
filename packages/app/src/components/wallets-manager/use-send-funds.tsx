@@ -1,9 +1,9 @@
 import handleException from "@/utils/handle-exception";
-import { Chains, Connections, Wallet } from "@chainfiliates/shared";
+import { Chains, Connections, Wallet } from "ChainFiliatess/shared";
 import { atom, useAtom } from "jotai";
 import Anchor from "@/components/Anchor";
 import { getArweaveClient } from "@/utils/arweave-client";
-import { MagicWallet } from "@chainfiliates/auth/src/lib/magicWallet";
+import { MagicWallet } from "ChainFiliatess/auth/src/lib/magicWallet";
 import { Paragraph, Strong, toaster } from "evergreen-ui";
 import React, { useCallback } from "react";
 import { ono } from "@jsdevtools/ono";

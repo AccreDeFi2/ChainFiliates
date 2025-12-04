@@ -6,7 +6,7 @@ import { Button, Label, Pane, toaster, Tooltip } from "evergreen-ui";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { useCustomTheme } from "@/brand/themes/theme";
 import { useSignEthMessageAndConnect } from "@/components/connect/buttons/use-sign-eth-message";
-import { USHER_SIGN_MESSAGE } from "@/components/connect/WalletConnect";
+import { ChainFiliates_SIGN_MESSAGE } from "@/components/connect/WalletConnect";
 import { UNSUPPORTED_EVM_CHAIN } from "@/utils/get-chain-by-id";
 
 const onCopy = () => {
@@ -40,7 +40,7 @@ export const PendingSignupAddress = ({
 			provider: wallet.provider,
 			chain: wallet.chain,
 			connection: wallet.connection,
-			signingMessage: USHER_SIGN_MESSAGE,
+			signingMessage: ChainFiliates_SIGN_MESSAGE,
 			address: wallet.address
 		});
 	};

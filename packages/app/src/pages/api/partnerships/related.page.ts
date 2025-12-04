@@ -3,7 +3,7 @@ import isEmpty from "lodash/isEmpty";
 import { z } from "zod";
 import cors from "cors";
 
-import { Chains } from "@chainfiliates/shared";
+import { Chains } from "ChainFiliatess/shared";
 import { AuthApiRequest } from "@/types";
 import { expressMiddleware, useRouteHandler } from "@/server/middleware";
 import withAuth from "@/server/middleware/auth";

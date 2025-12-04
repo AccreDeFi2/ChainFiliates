@@ -15,7 +15,7 @@ const chainfiliates = ChainFiliates();
 const chainfiliates2 = ChainFiliates({ apiUrl: "https://app.staging.chainfiliates.so/api" });
 
 // or
-const chainfiliates3 = ChainFiliates({ apiUrl: "<YOUR_USHER_NODE_URL>/api" });
+const chainfiliates3 = ChainFiliates({ apiUrl: "<YOUR_ChainFiliates_NODE_URL>/api" });
 ```
 
 #### Options

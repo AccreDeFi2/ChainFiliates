@@ -45,11 +45,11 @@ These features include:
 
 | Name         | Package                                         | Description                                                                                                                                  |
 | ------------ | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Auth         | [@chainfiliates/auth](packages/auth)                 | Produce an authenticated DID using a wallet connection like Metamask, ArConnect, etc. and interface with the Ceramic Network or ChainFiliates's APIs |
-| Campaigns    | [@chainfiliates/campaigns](packages/campaigns)       | Create your own ChainFiliates Campaigns directly within your dApp                                                                                    |
-| Partnerships | [@chainfiliates/partnerships](packages/partnerships) | Manage your users' partnerships against one or more Campaigns                                                                                |
-| Shared       | [@chainfiliates/shared](packages/shared)             | A package of facets shared throughout the ChainFiliates codebase.                                                                                    |
-| CLI          | [@chainfiliates/cli](packages/cli)                   | Manage your ChainFiliates Campaigns directly from your Terminal                                                                                      |
+| Auth         | [ChainFiliatess/auth](packages/auth)                 | Produce an authenticated DID using a wallet connection like Metamask, ArConnect, etc. and interface with the Ceramic Network or ChainFiliates's APIs |
+| Campaigns    | [ChainFiliatess/campaigns](packages/campaigns)       | Create your own ChainFiliates Campaigns directly within your dApp                                                                                    |
+| Partnerships | [ChainFiliatess/partnerships](packages/partnerships) | Manage your users' partnerships against one or more Campaigns                                                                                |
+| Shared       | [ChainFiliatess/shared](packages/shared)             | A package of facets shared throughout the ChainFiliates codebase.                                                                                    |
+| CLI          | [ChainFiliatess/cli](packages/cli)                   | Manage your ChainFiliates Campaigns directly from your Terminal                                                                                      |
 
 > To learn more about each individual package, navigate to the relevant package folder.
 

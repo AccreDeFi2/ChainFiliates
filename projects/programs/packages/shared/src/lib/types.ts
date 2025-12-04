@@ -30,7 +30,7 @@ export const EVMBasedChainList = [
 ] as const;
 export type EVMBasedChain = typeof EVMBasedChainList[number];
 
-// TODO: Probably move to @chainfiliates/auth library
+// TODO: Probably move to ChainFiliatess/auth library
 export type Wallet = {
 	chain: Chains;
 	connection: Connections;

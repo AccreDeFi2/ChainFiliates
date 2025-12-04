@@ -1,5 +1,5 @@
-import * as datamodels from "@chainfiliates/datamodels";
-import { Wallet } from "@chainfiliates/shared";
+import * as datamodels from "ChainFiliatess/datamodels";
+import { Wallet } from "ChainFiliatess/shared";
 
 import { Auth } from "./auth.js";
 import { AuthOptions } from "./options.js";

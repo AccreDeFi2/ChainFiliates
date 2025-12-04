@@ -2,7 +2,7 @@ import React from "react";
 import { css } from "@linaria/core";
 import { Pane, Paragraph, Strong } from "evergreen-ui";
 
-import { Campaign } from "@chainfiliates/campaigns";
+import { Campaign } from "ChainFiliatess/campaigns";
 import Anchor from "@/components/Anchor";
 import truncate from "@/utils/truncate";
 import { useDerivedColor } from "@/hooks";

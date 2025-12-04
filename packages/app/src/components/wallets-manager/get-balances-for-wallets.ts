@@ -1,4 +1,4 @@
-import { Chains, Wallet } from "@chainfiliates/shared";
+import { Chains, Wallet } from "ChainFiliatess/shared";
 import allSettled from "promise.allsettled/implementation";
 import { ethers } from "ethers";
 import { getArweaveClient } from "@/utils/arweave-client";

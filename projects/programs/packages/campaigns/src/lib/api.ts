@@ -1,5 +1,5 @@
-import { CampaignReference } from "@chainfiliates/partnerships";
-import { Api } from "@chainfiliates/shared";
+import { CampaignReference } from "ChainFiliatess/partnerships";
+import { Api } from "ChainFiliatess/shared";
 
 import { Campaign } from "./types.js";
 

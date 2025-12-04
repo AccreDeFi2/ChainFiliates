@@ -23,8 +23,8 @@ import {
 import startCase from "lodash/startCase";
 import { css, cx } from "@linaria/core";
 
-import { Chains } from "@chainfiliates/shared";
-import { Campaign, CampaignStrategies, RewardTypes } from "@chainfiliates/campaigns";
+import { Chains } from "ChainFiliatess/shared";
+import { Campaign, CampaignStrategies, RewardTypes } from "ChainFiliatess/campaigns";
 import Anchor from "@/components/Anchor";
 import "react-accessible-accordion/dist/fancy-example.css";
 import pascalCase from "@/utils/pascal-case";

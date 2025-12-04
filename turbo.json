@@ -5,7 +5,7 @@
 			"dependsOn": ["^build"],
 			"outputs": [".next/**", "!.next/cache/**"]
 		},
-		"@chainfiliates/app#build": {
+		"ChainFiliatess/app#build": {
 			"dependsOn": [
 				"^build",
 				"$ARANGO_PASSWORD",

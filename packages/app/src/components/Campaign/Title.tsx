@@ -1,7 +1,7 @@
 import React from "react";
 import { Heading, Paragraph, Strong, Text } from "evergreen-ui";
 
-import { Campaign } from "@chainfiliates/campaigns";
+import { Campaign } from "ChainFiliatess/campaigns";
 import Anchor from "@/components/Anchor";
 import truncate from "@/utils/truncate";
 import { useCustomTheme } from "@/brand/themes/theme";

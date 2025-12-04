@@ -1,6 +1,6 @@
 import { ceramicUrl, ethereumProviderUrl } from "@/env-config";
-import { AuthOptions } from "@chainfiliates/auth";
-import { ApiOptions } from "@chainfiliates/shared";
+import { AuthOptions } from "ChainFiliatess/auth";
+import { ApiOptions } from "ChainFiliatess/shared";
 
 // #region TargetEnv
 

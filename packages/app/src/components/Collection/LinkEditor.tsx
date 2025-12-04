@@ -1,5 +1,5 @@
 import pascalCase from "@/utils/pascal-case";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import {
 	Button,
 	Checkbox,

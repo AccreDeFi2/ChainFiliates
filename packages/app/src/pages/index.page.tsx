@@ -17,7 +17,7 @@ import isEmpty from "lodash/isEmpty";
 import { useUser } from "@/hooks";
 import CampaignCard from "@/components/CampaignCard";
 import Anchor from "@/components/Anchor";
-import { Campaigns } from "@chainfiliates/campaigns";
+import { Campaigns } from "ChainFiliatess/campaigns";
 import { API_OPTIONS } from "@/constants";
 import PageHeader from "@/components/PageHeader";
 import React from "react";

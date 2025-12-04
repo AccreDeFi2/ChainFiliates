@@ -1,4 +1,4 @@
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 
 export type Link = {
 	id: string;

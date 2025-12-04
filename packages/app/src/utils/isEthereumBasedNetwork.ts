@@ -1,4 +1,4 @@
-import { Chains, EVMBasedChainList } from "@chainfiliates/shared";
+import { Chains, EVMBasedChainList } from "ChainFiliatess/shared";
 
 const ethereumBasedNetworks = EVMBasedChainList;
 

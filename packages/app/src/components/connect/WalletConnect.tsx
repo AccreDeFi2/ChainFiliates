@@ -1,4 +1,4 @@
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import React from "react";
 import { Pane } from "evergreen-ui";
 import { ConnectToWalletsButtonsList } from "@/components/connect/ConnectToWalletsButtonsList";
@@ -9,7 +9,7 @@ export type WalletConnectProps = {
 	loading?: boolean;
 };
 
-export const USHER_SIGN_MESSAGE =
+export const ChainFiliates_SIGN_MESSAGE =
 	"To create your ChainFiliates account, please click the 'Sign' button.";
 
 const WalletConnect: React.FC<WalletConnectProps> = ({
@@ -21,7 +21,7 @@ const WalletConnect: React.FC<WalletConnectProps> = ({
 		<Pane display="flex" flexDirection="column">
 			<ConnectToWalletsButtonsList
 				hide={hide}
-				signingMessage={USHER_SIGN_MESSAGE}
+				signingMessage={ChainFiliates_SIGN_MESSAGE}
 				isLoading={loading}
 				onConnect={onConnect}
 			/>

@@ -1,9 +1,9 @@
 import getArConnect from "@/utils/arconnect";
 import { getMagicClient } from "@/utils/magic-client";
 import { EVMConnections } from "@/utils/provider-utils";
-import { Connections, EVMBasedChain } from "@chainfiliates/shared";
-import { Partnerships } from "@chainfiliates/partnerships";
-import { Authenticate } from "@chainfiliates/auth";
+import { Connections, EVMBasedChain } from "ChainFiliatess/shared";
+import { Partnerships } from "ChainFiliatess/partnerships";
+import { Authenticate } from "ChainFiliatess/auth";
 
 export const authenticateAndLoadPartnershipsForEVMAddress = async ({
 	connection,

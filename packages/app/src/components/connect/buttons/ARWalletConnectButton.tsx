@@ -1,6 +1,6 @@
 import { ARCONNECT_CHROME_URL, ARCONNECT_FIREFOX_URL } from "@/constants";
 import { useArConnect } from "@/hooks";
-import { Chains, Connections } from "@chainfiliates/shared";
+import { Chains, Connections } from "ChainFiliatess/shared";
 import { PermissionType } from "arconnect";
 import { Button, majorScale, Pane, toaster } from "evergreen-ui";
 import Image from "next/image";

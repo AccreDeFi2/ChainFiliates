@@ -1,7 +1,7 @@
 import React from "react";
 import { Pane } from "evergreen-ui";
 
-import { Campaign } from "@chainfiliates/campaigns";
+import { Campaign } from "ChainFiliatess/campaigns";
 import { useDerivedColor } from "@/hooks";
 
 export type Props = {

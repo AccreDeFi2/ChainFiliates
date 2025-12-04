@@ -1,7 +1,7 @@
-# EthFiliates - TODO
+# ChainFiliatess - TODO
 
-## Rebranding to EthFiliates
-- [x] Update all page titles and branding from "ChainFiliates" to "EthFiliates"
+## Rebranding to ChainFiliatess
+- [x] Update all page titles and branding from "ChainFiliates" to "ChainFiliatess"
 - [x] Update subtitle to "A No-Code Affiliate Program for Ethereum and other EVM based businesses"
 - [x] Update color scheme and visual branding
 - [x] Update all navigation and UI text

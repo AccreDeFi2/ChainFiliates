@@ -1,4 +1,4 @@
-import { Connections, Wallet } from "@chainfiliates/shared";
+import { Connections, Wallet } from "ChainFiliatess/shared";
 import { BehaviorSubject } from "rxjs";
 import { atomWithObservable } from "jotai/utils";
 

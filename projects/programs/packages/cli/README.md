@@ -1,15 +1,15 @@
-# `@chainfiliates/cli`
+# `ChainFiliatess/cli`
 
 ## Installation & Setup
 
 Install using npm with the -g global flag, or yarn using the global scope. Depending on your unique setup and configuration, you may need to use the sudo command.
 
 ```shell
-npm i -g @chainfiliates/cli
+npm i -g ChainFiliatess/cli
 
 OR
 
-yarn global add @chainfiliates/cli
+yarn global add ChainFiliatess/cli
 ```
 
 To fund Arweave transaction submissions via the Bundlr Network, it is also important to install the Bundlr CLI in order to fund your instant Arweave data uploads.

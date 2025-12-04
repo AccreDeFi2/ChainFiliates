@@ -4,7 +4,7 @@ import { aql } from "arangojs";
 import isEmpty from "lodash/isEmpty";
 
 import CampaignCard from "@/components/CampaignCard";
-import { Campaign } from "@chainfiliates/campaigns";
+import { Campaign } from "ChainFiliatess/campaigns";
 import { useSeedData } from "@/env-config";
 import { getArangoClient } from "@/utils/arango-client";
 import PageHeader from "@/components/PageHeader";

@@ -1,4 +1,4 @@
-# `@chainfiliates/partnerships`
+# `ChainFiliatess/partnerships`
 
 ChainFiliates Partnerships is a package that simplifies partnership creation on behalf of end-users against a given Campaign.  
 This way your users can register themselves as partners with any given ChainFiliates Campaign.  
@@ -9,7 +9,7 @@ Any authenticated DID (user) can fetch their related partnerships data and invit
 - **`addPartnership`**  
   Create a partnership against any Campaign on behalf of the most suitable Wallet/DID Authentication loaded in memory.
 - **`createPartnership`**  
-  Create a partnership against any Campaign on behalf of a specific Wallet/DID Authentication managed inside of [`@chainfiliates/auth`](packages/auth).
+  Create a partnership against any Campaign on behalf of a specific Wallet/DID Authentication managed inside of [`ChainFiliatess/auth`](packages/auth).
 - **`loadRelatedPartnerships`**  
   Load all partnerships data indexed against the authenticated user.
 

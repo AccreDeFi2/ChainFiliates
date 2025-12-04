@@ -1,4 +1,4 @@
-# `@chainfiliates/auth`
+# `ChainFiliatess/auth`
 
 ChainFiliates Auth is a package that contains all of the authentication processes required to interface with Ceramic and with ChainFiliates's APIs.
 
@@ -19,7 +19,7 @@ Authentication methods supported:
 ### Authentication
 
 ```javascript
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 
 const authInstance = new Authenticate(arweave, ethProvider);
 
@@ -43,7 +43,7 @@ An API can then intelligently store each unqiue DID in relation to each other, i
 #### Generating an Auth Token
 
 ```javascript
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 
 const authInstance = new Authenticate(arweave, ethProvider);
 

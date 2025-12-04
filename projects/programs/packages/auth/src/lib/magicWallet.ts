@@ -1,4 +1,4 @@
-import { Chains, Connections } from "@chainfiliates/shared";
+import { Chains, Connections } from "ChainFiliatess/shared";
 import Arweave from "arweave";
 import { JWKInterface } from "arweave/node/lib/wallet";
 import { DID } from "dids";

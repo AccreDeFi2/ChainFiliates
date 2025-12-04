@@ -1,4 +1,4 @@
-import { campaignDetailsDocTemplate } from "@chainfiliates/campaigns";
+import { campaignDetailsDocTemplate } from "ChainFiliatess/campaigns";
 import { Command } from "commander";
 
 export const templateCommand = new Command()

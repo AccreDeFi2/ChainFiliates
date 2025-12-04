@@ -1,4 +1,4 @@
-# `@chainfiliates/datamodels` - Ceramic Data Models for ChainFiliates
+# `ChainFiliatess/datamodels` - Ceramic Data Models for ChainFiliates
 
 - Generated DID Key - `openssl rand -hex 32`
 - **Glaze CLI** -- [https://developers.ceramic.network/tools/glaze/example/](https://developers.ceramic.network/tools/glaze/example/)

@@ -22,7 +22,7 @@ This way, no matter where the Campaign redirects your Referred Users, ChainFilia
 ### Using with `<script>`
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@chainfiliates/js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ChainFiliatess/js"></script>
 <script>
 	(function () {
 		function convert() {
@@ -54,16 +54,16 @@ This way, no matter where the Campaign redirects your Referred Users, ChainFilia
 
 ```shell
 # npm
-npm i @chainfiliates/js
+npm i ChainFiliatess/js
 
 # yarn
-yarn add @chainfiliates/js
+yarn add ChainFiliatess/js
 ```
 
 2. Import the package into your project and you're good to go (with typescript compatibility)
 
 ```javascript
-import { ChainFiliates } from "@chainfiliates/js";
+import { ChainFiliates } from "ChainFiliatess/js";
 
 const chainfiliates = ChainFiliates();
 (async () => {
@@ -96,7 +96,7 @@ const chainfiliates = ChainFiliates();
 const chainfiliates2 = ChainFiliates({ apiUrl: "https://app.staging.chainfiliates.so/api" });
 
 // or
-const chainfiliates3 = ChainFiliates({ apiUrl: "<YOUR_USHER_NODE_URL>/api" });
+const chainfiliates3 = ChainFiliates({ apiUrl: "<YOUR_ChainFiliates_NODE_URL>/api" });
 ```
 
 #### Options

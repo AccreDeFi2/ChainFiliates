@@ -5,7 +5,7 @@
 export {};
 
 // TODO: What is the purpose of this code? It never used.
-// import { Authenticate } from "@chainfiliates/auth";
+// import { Authenticate } from "ChainFiliatess/auth";
 
 // const authInstance = Authenticate.getInstance();
 

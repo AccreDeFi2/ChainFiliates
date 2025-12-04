@@ -8,7 +8,7 @@ import { appName } from "./env-config";
 export const convert = async (
 	conversion: Conversion
 ): Promise<ConversionResponse | null> => {
-	console.log("[USHER]", conversion);
+	console.log("[ChainFiliates]", conversion);
 
 	const ref = {
 		id: conversion.id,
@@ -18,7 +18,7 @@ export const convert = async (
 	const token = Token.next(ref);
 
 	if (!token) {
-		console.error(`[USHER] No token received from a valid referral`);
+		console.error(`[ChainFiliates] No token received from a valid referral`);
 		return null;
 	}
 
@@ -28,7 +28,7 @@ export const convert = async (
 		typeof conversion.eventId !== "number"
 	) {
 		console.error(
-			`[USHER] Campaign 'id', 'chain' and 'eventId' must be specified to track a conversion`
+			`[ChainFiliates] Campaign 'id', 'chain' and 'eventId' must be specified to track a conversion`
 		);
 		return null;
 	}
@@ -77,7 +77,7 @@ export const convert = async (
 		return saveResponse.data;
 	} catch (e) {
 		if (typeof window !== "undefined") {
-			console.error(`[USHER]`, e);
+			console.error(`[ChainFiliates]`, e);
 		} else {
 			throw e;
 		}

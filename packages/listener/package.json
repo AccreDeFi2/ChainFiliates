@@ -1,9 +1,9 @@
 {
-	"name": "@chainfiliates/listener",
+	"name": "ChainFiliatess/listener",
 	"version": "1.0.0",
 	"description": "ChainFiliates Listener Node",
 	"repository": "git@gitlab.com:chainfiliateslabs/core.git",
-	"author": "Ryan Soury <ryan@chainfiliates.so>",
+	"author": "Ryan Soury <ryanChainFiliatess.so>",
 	"license": "AGPL-3.0",
 	"bin": {
 		"listener": "./bin/listener"

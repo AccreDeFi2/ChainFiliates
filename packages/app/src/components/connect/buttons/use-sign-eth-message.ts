@@ -5,7 +5,7 @@ import { toaster } from "evergreen-ui";
 import * as uint8arrays from "uint8arrays";
 import { useUser } from "@/hooks";
 import { StoredWallet, storedWallets } from "@/utils/wallets/stored-wallets";
-import { Chains, Connections } from "@chainfiliates/shared";
+import { Chains, Connections } from "ChainFiliatess/shared";
 
 export const useSignEthMessage = () => {
 	const [signing, setSigning] = React.useState(false);

@@ -1,11 +1,11 @@
 {
-	"name": "@chainfiliates/graph",
+	"name": "ChainFiliatess/graph",
 	"version": "0.0.2",
 	"description": "ChainFiliates Graph Service. Manage ingestion of decentralised data into ArangoDB",
 	"main": "index.ts",
 	"types": "index.d.ts",
 	"repository": "git@gitlab.com:chainfiliateslabs/core.git",
-	"author": "Ryan Soury <ryan@chainfiliates.so>",
+	"author": "Ryan Soury <ryanChainFiliatess.so>",
 	"license": "AGPL-3.0",
 	"private": true,
 	"scripts": {

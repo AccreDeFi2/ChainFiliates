@@ -166,19 +166,19 @@ importers:
       '@ceramicnetwork/stream-tile':
         specifier: ^2.9.0
         version: 2.9.0(encoding@0.1.13)
-      '@chainfiliates/auth':
+      'ChainFiliatess/auth':
         specifier: workspace:*
         version: link:../../projects/programs/packages/auth
-      '@chainfiliates/campaigns':
+      'ChainFiliatess/campaigns':
         specifier: workspace:*
         version: link:../../projects/programs/packages/campaigns
-      '@chainfiliates/datamodels':
+      'ChainFiliatess/datamodels':
         specifier: workspace:*
         version: link:../../projects/programs/packages/datamodels
-      '@chainfiliates/partnerships':
+      'ChainFiliatess/partnerships':
         specifier: workspace:*
         version: link:../../projects/programs/packages/partnerships
-      '@chainfiliates/shared':
+      'ChainFiliatess/shared':
         specifier: workspace:*
         version: link:../../projects/programs/packages/shared
       '@fingerprintjs/fingerprintjs':

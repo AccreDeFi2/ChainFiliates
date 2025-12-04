@@ -1,7 +1,7 @@
 import { atom } from "jotai/index";
 import { API_OPTIONS, AUTH_OPTIONS } from "@/constants";
-import { Authenticate } from "@chainfiliates/auth";
-import { Partnerships } from "@chainfiliates/partnerships";
+import { Authenticate } from "ChainFiliatess/auth";
+import { Partnerships } from "ChainFiliatess/partnerships";
 
 const authenticationInstanceAtom = atom(
 	() => new Authenticate({}, AUTH_OPTIONS)

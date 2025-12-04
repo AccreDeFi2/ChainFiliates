@@ -1,6 +1,6 @@
 import ono from "@jsdevtools/ono";
-import { Campaigns } from "@chainfiliates/campaigns";
-import { ApiOptions } from "@chainfiliates/shared";
+import { Campaigns } from "ChainFiliatess/campaigns";
+import { ApiOptions } from "ChainFiliatess/shared";
 import { Argument, Command } from "commander";
 
 export const indexCommand = new Command()

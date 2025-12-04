@@ -22,7 +22,7 @@ export default function Home() {
         <nav className="border-b border-slate-700 bg-slate-900/50 backdrop-blur">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
-              EthFiliates
+              ChainFiliatess
             </div>
             <a href={getLoginUrl()} className="text-slate-300 hover:text-white transition">
               Sign In
@@ -84,7 +84,7 @@ export default function Home() {
 
           <div className="bg-gradient-to-r from-blue-500/10 to-cyan-500/10 border border-blue-500/20 rounded-lg p-12 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to launch your affiliate program?</h2>
-            <p className="text-slate-300 mb-6">Join hundreds of projects using EthFiliates to power their growth.</p>
+            <p className="text-slate-300 mb-6">Join hundreds of projects using ChainFiliatess to power their growth.</p>
             <a href={getLoginUrl()}>
               <Button size="lg" className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white">
                 Start Free Trial
@@ -101,7 +101,7 @@ export default function Home() {
       <nav className="bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
-            EthFiliates
+            ChainFiliatess
           </div>
           <div className="flex items-center gap-4">
             <span className="text-slate-600">Welcome, {user?.name || "User"}</span>

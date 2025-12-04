@@ -13,7 +13,7 @@ import { identifyUser } from "@/utils/signals";
 // let identifiedUser: User | null = null;
 // const chainfiliates = ChainFiliates({ staging: true });
 // const arResellerCampaignId =
-// 	process.env.NEXT_PUBLIC_USHER_ARWEAVE_RESELLER_CAMPAIGN_ID || "";
+// 	process.env.NEXT_PUBLIC_ChainFiliates_ARWEAVE_RESELLER_CAMPAIGN_ID || "";
 
 events.on(AppEvents.PROFILE_SAVE, async ({ profile }: { profile: Profile }) => {
 	if (!profile.email) {

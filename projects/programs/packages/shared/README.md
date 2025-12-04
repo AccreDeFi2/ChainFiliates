@@ -1,4 +1,4 @@
-# `@chainfiliates/shared`
+# `ChainFiliatess/shared`
 
 ChainFiliates Shared is a package that includes disparate facets and options utilised throughout ChainFiliates codebases.
 

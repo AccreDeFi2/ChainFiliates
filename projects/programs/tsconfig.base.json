@@ -17,11 +17,11 @@
 		"resolveJsonModule": true,
 		"baseUrl": ".",
 		"paths": {
-			"@chainfiliates/auth": ["packages/auth/src/index.ts"],
-			"@chainfiliates/campaigns": ["packages/campaigns/src/index.ts"],
-			"@chainfiliates/datamodels": ["packages/datamodels/src/index.ts"],
-			"@chainfiliates/partnerships": ["packages/partnerships/src/index.ts"],
-			"@chainfiliates/shared": ["packages/shared/src/index.ts"]
+			"ChainFiliatess/auth": ["packages/auth/src/index.ts"],
+			"ChainFiliatess/campaigns": ["packages/campaigns/src/index.ts"],
+			"ChainFiliatess/datamodels": ["packages/datamodels/src/index.ts"],
+			"ChainFiliatess/partnerships": ["packages/partnerships/src/index.ts"],
+			"ChainFiliatess/shared": ["packages/shared/src/index.ts"]
 		}
 	},
 	"exclude": ["node_modules", "tmp"]

@@ -1,4 +1,4 @@
-import { EnvOptions } from "@chainfiliates/shared";
+import { EnvOptions } from "ChainFiliatess/shared";
 
 export class AuthOptions extends EnvOptions {
 	readonly ceramicUrl: string;

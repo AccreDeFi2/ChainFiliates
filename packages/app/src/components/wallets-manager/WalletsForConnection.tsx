@@ -19,7 +19,7 @@ import { useCustomTheme } from "@/brand/themes/theme";
 import { getBalances } from "@/components/wallets-manager/get-balances-for-wallets";
 import { providerLabelByConnection } from "@/utils/provider-utils";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { Chains, Connections, Wallet } from "@chainfiliates/shared";
+import { Chains, Connections, Wallet } from "ChainFiliatess/shared";
 import { useSendFunds } from "@/components/wallets-manager/use-send-funds";
 import _ from "lodash";
 import React from "react";

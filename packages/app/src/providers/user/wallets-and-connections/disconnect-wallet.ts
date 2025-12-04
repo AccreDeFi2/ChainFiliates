@@ -1,6 +1,6 @@
 import getArConnect from "@/utils/arconnect";
 import delay from "@/utils/delay";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import { onboard } from "@/utils/onboard";
 import { providerLabelByConnection } from "@/utils/provider-utils";
 import { storedWallets } from "@/utils/wallets/stored-wallets";

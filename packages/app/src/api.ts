@@ -1,4 +1,4 @@
-import { Chains, Connections } from "@chainfiliates/shared";
+import { Chains, Connections } from "ChainFiliatess/shared";
 import camelcaseKeys from "camelcase-keys";
 import ky from "ky";
 

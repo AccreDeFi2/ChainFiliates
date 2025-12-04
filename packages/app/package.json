@@ -1,5 +1,5 @@
 {
-	"name": "@chainfiliates/app",
+	"name": "ChainFiliatess/app",
 	"version": "0.0.3",
 	"private": true,
 	"scripts": {
@@ -41,11 +41,11 @@
 		"@sentry/nextjs": "^6.19.7",
 		"@stablelib/random": "^1.0.1",
 		"@types/express": "^4.17.13",
-		"@chainfiliates/auth": "workspace:*",
-        "@chainfiliates/campaigns": "workspace:*",
-        "@chainfiliates/datamodels": "workspace:*",
-        "@chainfiliates/partnerships": "workspace:*",
-        "@chainfiliates/shared": "workspace:*",
+		"ChainFiliatess/auth": "workspace:*",
+        "ChainFiliatess/campaigns": "workspace:*",
+        "ChainFiliatess/datamodels": "workspace:*",
+        "ChainFiliatess/partnerships": "workspace:*",
+        "ChainFiliatess/shared": "workspace:*",
 		"@web3-onboard/coinbase": "^2.2.4",
 		"@web3-onboard/core": "^2.20.1",
 		"@web3-onboard/injected-wallets": "^2.10.0",

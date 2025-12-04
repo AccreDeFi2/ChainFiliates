@@ -1,4 +1,4 @@
-# `@chainfiliates/campaigns`
+# `ChainFiliatess/campaigns`
 
 ChainFiliates Campaigns is a package that contains logic to support the creation of a Campaign on ChainFiliates.
 
@@ -26,7 +26,7 @@ A Campaign is comprised of three components.
    Creating Advertiser Doc:
 
    ```javascript
-   import { Campaigns, parseAdvertiserDoc } from "@chainfiliates/campaigns";
+   import { Campaigns, parseAdvertiserDoc } from "ChainFiliatess/campaigns";
    const advertiser = parseAdvertiserDoc({
    	name: "Advertiser Name",
    	icon: "https://url_to.com/icon.png",
@@ -57,7 +57,7 @@ A Campaign is comprised of three components.
    Creating Campaign Details Doc:
 
    ```javascript
-   import { Campaigns, parseAdvertiserDoc } from "@chainfiliates/campaigns";
+   import { Campaigns, parseAdvertiserDoc } from "ChainFiliatess/campaigns";
    const advertiser = parseAdvertiserDoc({
    	name: "Some new Campaign",
    	description: "A description for my Campaign",
@@ -111,7 +111,7 @@ A Campaign is comprised of three components.
     [https://docs.chainfiliates.so/advertise-and-grow-your-web3-brand/the-campaign-object](https://docs.chainfiliates.so/advertise-and-grow-your-web3-brand/the-campaign-object)
 
    ```javascript
-   import { Campaigns, parseCampaignDoc } from "@chainfiliates/campaigns";
+   import { Campaigns, parseCampaignDoc } from "ChainFiliatess/campaigns";
    const campaign = await parseCampaignDoc(campaignJson);
 
    	const campaignsProvider = new Campaigns();

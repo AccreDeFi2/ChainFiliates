@@ -1,4 +1,4 @@
-import { Chains } from "@chainfiliates/shared";
+import { Chains } from "ChainFiliatess/shared";
 import {
 	ARWEAVE_EXPLORER_TX_URL,
 	ETHEREUM_EXPLORER_TX_URL,

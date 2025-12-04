@@ -16,8 +16,8 @@ import {
 import Image from "next/image";
 import { css } from "@linaria/core";
 
-import { CampaignReward } from "@chainfiliates/campaigns";
-import { Chains, Connections, Wallet } from "@chainfiliates/shared";
+import { CampaignReward } from "ChainFiliatess/campaigns";
+import { Chains, Connections, Wallet } from "ChainFiliatess/shared";
 import { Claim } from "@/types";
 import ValueCard from "@/components/ValueCard";
 import Anchor from "@/components/Anchor";

@@ -1,4 +1,4 @@
-import { Chains } from "@chainfiliates/shared";
+import { Chains } from "ChainFiliatess/shared";
 import camelcaseKeys from "camelcase-keys";
 import { z } from "zod";
 import { CampaignStrategies, RewardTypes } from "../types.js";

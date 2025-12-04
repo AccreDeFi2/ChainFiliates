@@ -5,11 +5,11 @@ import * as uint8arrays from "uint8arrays";
 import { aql } from "arangojs";
 import isEmpty from "lodash/isEmpty";
 import { TileLoader } from "@glazed/tile-loader";
-import { WalletAliases } from "@chainfiliates/datamodels";
+import { WalletAliases } from "ChainFiliatess/datamodels";
 import cors from "cors";
 
-import { CampaignReference } from "@chainfiliates/partnerships";
-import { Campaign, CampaignStrategies } from "@chainfiliates/campaigns";
+import { CampaignReference } from "ChainFiliatess/partnerships";
+import { Campaign, CampaignStrategies } from "ChainFiliatess/campaigns";
 import { expressMiddleware, useRouteHandler } from "@/server/middleware";
 import { getAppDID } from "@/server/did";
 import { getArangoClient } from "@/utils/arango-client";

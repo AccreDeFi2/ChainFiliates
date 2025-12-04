@@ -1,5 +1,5 @@
 import { ProviderLabel } from "@/utils/onboard";
-import { Chains, Connections } from "@chainfiliates/shared";
+import { Chains, Connections } from "ChainFiliatess/shared";
 
 type ConnectionProps<T extends Chains, P extends ProviderLabel> = {
 	chain: T;

@@ -11,7 +11,7 @@ import {
 } from "evergreen-ui";
 import { css, cx } from "@linaria/core";
 
-import { Partnership } from "@chainfiliates/partnerships";
+import { Partnership } from "ChainFiliatess/partnerships";
 import Anchor from "@/components/Anchor";
 import { useUser } from "@/hooks";
 import { useCustomTheme } from "@/brand/themes/theme";

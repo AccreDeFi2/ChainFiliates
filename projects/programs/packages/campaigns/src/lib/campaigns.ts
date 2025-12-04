@@ -1,9 +1,9 @@
 import Bundlr from "@bundlr-network/client";
 import { CeramicClient } from "@ceramicnetwork/http-client";
 import { TileDocument } from "@ceramicnetwork/stream-tile";
-import { CampaignAliases } from "@chainfiliates/datamodels";
-import { CampaignReference } from "@chainfiliates/partnerships";
-import { ApiOptions } from "@chainfiliates/shared";
+import { CampaignAliases } from "ChainFiliatess/datamodels";
+import { CampaignReference } from "ChainFiliatess/partnerships";
+import { ApiOptions } from "ChainFiliatess/shared";
 import BigNumber from "bignumber.js";
 import { DID } from "dids";
 import isEqual from "lodash/isEqual.js";

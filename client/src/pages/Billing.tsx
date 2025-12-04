@@ -52,7 +52,7 @@ export default function Billing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Link href="/">
             <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 cursor-pointer">
-              EthFiliates
+              ChainFiliatess
             </div>
           </Link>
           <div className="flex items-center gap-4">
@@ -65,7 +65,7 @@ export default function Billing() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-12">
           <h1 className="text-4xl font-bold text-slate-900 mb-2">Billing & Subscription</h1>
-          <p className="text-slate-600">Manage your EthFiliates subscription and view payment history</p>
+          <p className="text-slate-600">Manage your ChainFiliatess subscription and view payment history</p>
         </div>
 
         {/* Subscription Status */}
@@ -259,7 +259,7 @@ export default function Billing() {
         {/* Pricing Info */}
         <Card className="mt-12 bg-blue-50 border-blue-200">
           <CardHeader>
-            <CardTitle className="text-blue-900">EthFiliates Pricing</CardTitle>
+            <CardTitle className="text-blue-900">ChainFiliatess Pricing</CardTitle>
           </CardHeader>
           <CardContent className="text-blue-800 space-y-3">
             <p className="font-semibold">Your subscription includes:</p>
@@ -279,7 +279,7 @@ export default function Billing() {
           isOpen={showPaymentModal}
           onClose={() => setShowPaymentModal(false)}
           amount="150"
-          description="EthFiliates Monthly Subscription"
+          description="ChainFiliatess Monthly Subscription"
           recipientAddress="0x0bc01063610a23883110c95fab8951c818f4b7e2"
           tokenAddress="0xdAC17F958D2ee523a2206206994597C13D831ec7"
           chainId={selectedChainId}

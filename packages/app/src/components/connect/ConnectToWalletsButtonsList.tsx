@@ -4,7 +4,7 @@ import MetaMaskIcon from "@/assets/icon/metamask.svg";
 import WalletConnectIcon from "@/assets/icon/walletconnect.svg";
 import CoinbaseWalletIcon from "@/assets/icon/coinbasewallet.svg";
 import { UilLockOpenAlt } from "@iconscout/react-unicons";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import type { WalletConnectProps } from "@/components/connect/WalletConnect";
 import React from "react";
 import { useUser } from "@/hooks";

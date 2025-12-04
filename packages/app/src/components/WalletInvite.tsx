@@ -6,7 +6,7 @@ import CoinbaseWalletIcon from "@/assets/icon/coinbasewallet.svg";
 import MetaMaskIcon from "@/assets/icon/metamask.svg";
 import WalletConnectIcon from "@/assets/icon/walletconnect.svg";
 import { ProviderLabel } from "@/utils/onboard";
-import { Chains, Connections } from "@chainfiliates/shared";
+import { Chains, Connections } from "ChainFiliatess/shared";
 import { WalletConnectButton } from "./connect/buttons/WalletConnectButton";
 
 export type WalletInviteProps = {

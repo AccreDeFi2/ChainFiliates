@@ -1,5 +1,5 @@
 /**
- * Supported blockchain networks for EthFiliates
+ * Supported blockchain networks for ChainFiliatess
  */
 
 export interface BlockchainNetwork {

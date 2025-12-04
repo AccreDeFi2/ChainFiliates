@@ -1,5 +1,5 @@
 import { getArangoClient } from "@/utils/arango-client";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 
 const arango = getArangoClient();
 

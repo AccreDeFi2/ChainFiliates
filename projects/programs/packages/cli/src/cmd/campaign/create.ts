@@ -1,6 +1,6 @@
 import ono from "@jsdevtools/ono";
-import { Campaigns, parseCampaignDoc } from "@chainfiliates/campaigns";
-import { ApiOptions } from "@chainfiliates/shared";
+import { Campaigns, parseCampaignDoc } from "ChainFiliatess/campaigns";
+import { ApiOptions } from "ChainFiliatess/shared";
 import { Command, Option } from "commander";
 import { getContentByOptions } from "../../utils/content.js";
 import { readWallet } from "../../utils/wallet.js";

@@ -1,5 +1,5 @@
 import { ProviderLabel } from "@/utils/onboard";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 
 export const providerLabelByConnection = {
 	[Connections.ARCONNECT]: ProviderLabel.ArConnect,

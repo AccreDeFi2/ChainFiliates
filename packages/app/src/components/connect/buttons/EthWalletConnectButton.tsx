@@ -1,5 +1,5 @@
 import { METAMASK_CHROME_URL, METAMASK_FIREFOX_URL } from "@/constants";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import { ProviderLabel } from "@/utils/onboard";
 import { useConnectWallet } from "@web3-onboard/react";
 import { Button, majorScale, Pane, toaster } from "evergreen-ui";

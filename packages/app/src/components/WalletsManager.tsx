@@ -13,7 +13,7 @@ import {
 } from "evergreen-ui";
 import { css } from "@linaria/core";
 import isNumber from "is-number";
-import { Connections } from "@chainfiliates/shared";
+import { Connections } from "ChainFiliatess/shared";
 import truncate from "@/utils/truncate";
 import WalletConnect from "@/components/connect/WalletConnect";
 import InputField from "@/components/InputField";
