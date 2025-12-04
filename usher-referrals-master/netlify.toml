@@ -1,7 +1,0 @@
-[build]
-command = "turbo run build"
-base = "."
-publish = "./packages/app/.next"
-
-[[plugins]]
-package = "@netlify/plugin-nextjs"
